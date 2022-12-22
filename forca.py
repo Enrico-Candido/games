@@ -179,3 +179,4 @@ while True:
             palavra_secreta = get_palavra(palavras)
         else:
             break
+            
