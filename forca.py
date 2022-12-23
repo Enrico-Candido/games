@@ -158,6 +158,16 @@ while True:
 
         if p_completa:
             print(f'\nParabéns, você acertou!! A palavra secreta é: {palavra_secreta}')
+            print("       ___________      ")
+            print("      '._==_==_=_.'     ")
+            print("      .-\\:      /-.    ")
+            print("     | (|:.     |) |    ")
+            print("      '-|:.     |-'     ")
+            print("        \\::.    /      ")
+            print("         '::. .'        ")
+            print("           ) (          ")
+            print("         _.' '._        ")
+            print("        '-------'       ")
             fim_de_jogo = True
 
     else:
@@ -168,6 +178,22 @@ while True:
 
             print(f'Que pena, suas chanes acabaram... \nTotal de chutes errados: {len(letra_errada)}\n'
                   f'Total de chutes corretos: {len(letra_correta)}\nAhh, a palavra era: {palavra_secreta}')
+            print("    _______________         ")
+            print("   /               \       ")
+            print("  /                 \      ")
+            print("//                   \/\  ")
+            print("\|   XXXX     XXXX   | /   ")
+            print(" |   XXXX     XXXX   |/     ")
+            print(" |   XXX       XXX   |      ")
+            print(" |                   |      ")
+            print(" \__      XXX      __/     ")
+            print("   |\     XXX     /|       ")
+            print("   | |           | |        ")
+            print("   | I I I I I I I |        ")
+            print("   |  I I I I I I  |        ")
+            print("   \_             _/       ")
+            print("     \_         _/         ")
+            print("       \_______/           ")
             fim_de_jogo = True
 
     # Verificar se o jogador deseja jogar novamente
@@ -179,4 +205,3 @@ while True:
             palavra_secreta = get_palavra(palavras)
         else:
             break
-            
